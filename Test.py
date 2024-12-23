@@ -471,14 +471,6 @@ if image_data:
     # Run detection on the captured image
     results = model.predict(source=img, save=False)
 
-    # Annotate the image
-    annotated_img = results[0].plot()
-
-    # Convert image to RGB format for display
-    annotated_img = cv2.cvtColor(annotated_img, cv2.COLOR_BGR2RGB)
-
-    # Display the annotated image
-    st.image(annotated_img, caption="Detected Image", use_column_width=True)
 
     # Extract detected classes
     detected_classes = results[0].boxes.cls
