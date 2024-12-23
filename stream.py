@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 # Load YOLOv8 model
-model = YOLO('/Users/najlaalhomaid/Desktop/stre/bestt.pt')  # Replace with your model path
+model = YOLO('bestt.pt')  # Replace with your model path
 
 # Landmark information with updated details
 landmark_info = {
