@@ -458,6 +458,9 @@ if use_camera:
     # Release the webcam
     cap.release()
     cv2.destroyAllWindows()
+
+normalized_landmark_info = {key.lower(): value for key, value in landmark_info.items()}
+
 # Camera Input
 image_data = st.camera_input("Take a picture")
 if image_data:
@@ -466,7 +469,8 @@ if image_data:
     img = cv2.imdecode(file_bytes, cv2.IMREAD_COLOR)
 
     # Display the captured image
-    st.image(img, caption="Captured Image", use_column_width=True)
+    st.image(img, caption="Captured Image", use_container_width=True)
+
 
     # Run detection on the captured image
     results = model.predict(source=img, save=False)
