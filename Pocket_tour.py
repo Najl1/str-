@@ -401,10 +401,10 @@ landmark_info = {
 
 
 # Improved UI
-st.title("🌆 Modern Tour: Your Guide to Saudi Arabia's Iconic Landmarks")
+st.title("🌆 Pocket Tour: Your Guide to Saudi Arabia's Iconic Landmarks")
 st.markdown(
     """
-    Welcome to **Modern Tour**, your AI-powered travel companion! 🌟  
+    Welcome to **Pocket Tour**, your AI-powered tour guide in Saudi! 🌟  
     Discover the beauty and history of Saudi Arabia with ease.  
 
     Upload a photo or snap one on the go, and let our intelligent system identify the landmark, 
