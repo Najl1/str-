@@ -421,7 +421,7 @@ st.markdown("### Choose an option to detect landmarks:")
 col1, col2 = st.columns(2)
 
 with col1:
-    use_camera = st.checkbox("📷 Capture an image using your camera")
+    use_camera = st.checkbox("")
 
 with col2:
     uploaded_file = st.file_uploader("📁 Upload an image", type=["jpg", "png", "jpeg"])
@@ -434,9 +434,6 @@ if use_camera:
 
     captured_frame = None
 
-    # # Place "Capture" button outside the loop
-    # capture_button = st.button("📸 Capture")
-
     while cap.isOpened():
         ret, frame = cap.read()
         if not ret:
@@ -446,12 +443,7 @@ if use_camera:
         # Convert frame to RGB for display
         frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         FRAME_WINDOW.image(frame_rgb, caption="Live Feed", use_container_width=True)
-
-        # # Break the loop and capture the frame if the button is pressed
-        # if capture_button:
-        #     captured_frame = frame
-        #     break
-
+        
     # Release the webcam
     cap.release()
     cv2.destroyAllWindows()
