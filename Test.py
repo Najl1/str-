@@ -421,7 +421,7 @@ st.markdown("### Choose an option to detect landmarks:")
 col1, col2 = st.columns(2)
 
 with col1:
-    use_camera = st.checkbox("")
+    use_camera = st.text("")
 
 with col2:
     uploaded_file = st.file_uploader("📁 Upload an image", type=["jpg", "png", "jpeg"])
