@@ -456,13 +456,13 @@ if use_camera:
     cap.release()
     cv2.destroyAllWindows()
     
-    # if captured_frame is not None:
-    #     # Clear the live feed to avoid duplicate display
-    #     FRAME_WINDOW.empty()
+    if captured_frame is not None:
+        # Clear the live feed to avoid duplicate display
+        FRAME_WINDOW.empty()
         
-    #     # Display the captured image
-    #     captured_frame_rgb = cv2.cvtColor(captured_frame, cv2.COLOR_BGR2RGB)
-    #     st.image(captured_frame_rgb, caption="Captured Image", use_container_width=True)
+        # Display the captured image
+        captured_frame_rgb = cv2.cvtColor(captured_frame, cv2.COLOR_BGR2RGB)
+        st.image(captured_frame_rgb, caption="Captured Image", use_container_width=True)
 
 
 normalized_landmark_info = {key.lower(): value for key, value in landmark_info.items()}
