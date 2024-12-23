@@ -434,8 +434,8 @@ if use_camera:
 
     captured_frame = None
 
-    # Place "Capture" button outside the loop
-    capture_button = st.button("📸 Capture")
+    # # Place "Capture" button outside the loop
+    # capture_button = st.button("📸 Capture")
 
     while cap.isOpened():
         ret, frame = cap.read()
@@ -447,22 +447,22 @@ if use_camera:
         frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         FRAME_WINDOW.image(frame_rgb, caption="Live Feed", use_container_width=True)
 
-        # Break the loop and capture the frame if the button is pressed
-        if capture_button:
-            captured_frame = frame
-            break
+        # # Break the loop and capture the frame if the button is pressed
+        # if capture_button:
+        #     captured_frame = frame
+        #     break
 
     # Release the webcam
     cap.release()
     cv2.destroyAllWindows()
     
-    if captured_frame is not None:
-        # Clear the live feed to avoid duplicate display
-        FRAME_WINDOW.empty()
+    # if captured_frame is not None:
+    #     # Clear the live feed to avoid duplicate display
+    #     FRAME_WINDOW.empty()
         
-        # Display the captured image
-        captured_frame_rgb = cv2.cvtColor(captured_frame, cv2.COLOR_BGR2RGB)
-        st.image(captured_frame_rgb, caption="Captured Image", use_container_width=True)
+    #     # Display the captured image
+    #     captured_frame_rgb = cv2.cvtColor(captured_frame, cv2.COLOR_BGR2RGB)
+    #     st.image(captured_frame_rgb, caption="Captured Image", use_container_width=True)
 
 
 normalized_landmark_info = {key.lower(): value for key, value in landmark_info.items()}
