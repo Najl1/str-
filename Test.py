@@ -428,11 +428,8 @@ with col2:
 
 # Handle camera input
 if use_camera:
-    st.markdown("#### Live Camera Feed")
-    st.write("Press 'Capture' to take a photo from your webcam.")
-
     # Initialize webcam
-    cap = cv2.VideoCapture(0)  # Use 0 if Iriun Webcam is the default camera
+    cap = cv2.VideoCapture(0)  # Use 0 for the default camera
     FRAME_WINDOW = st.image([])
 
     captured_frame = None
@@ -458,6 +455,15 @@ if use_camera:
     # Release the webcam
     cap.release()
     cv2.destroyAllWindows()
+    
+    if captured_frame is not None:
+        # Clear the live feed to avoid duplicate display
+        FRAME_WINDOW.empty()
+        
+        # Display the captured image
+        captured_frame_rgb = cv2.cvtColor(captured_frame, cv2.COLOR_BGR2RGB)
+        st.image(captured_frame_rgb, caption="Captured Image", use_container_width=True)
+
 
 normalized_landmark_info = {key.lower(): value for key, value in landmark_info.items()}
 
