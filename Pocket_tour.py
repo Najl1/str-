@@ -28,23 +28,23 @@ landmark_info = {
             ]
     },
      "Al-Subaie Palace": {
-        "English_title": (
-            "Al-Subaie Palace"
-        ),
-        "English_description": (
-      "Al-Subaie Palace is a majestic historical landmark in the heart of Riyadh, embodying the rich heritage and architectural brilliance of the Najd region. Constructed over 80 years ago, the palace served as a significant resting place for King Abdulaziz Al Saud during his travels. It played a pivotal role in hosting royal gatherings and state affairs, making it a vital part of Saudi history. The architectural style of the palace is a harmonious blend of traditional Saudi craftsmanship and Andalusian design elements, showcasing intricate patterns, spacious courtyards, and a reflection of the opulent lifestyle of that era. The palace has undergone several restoration projects to maintain its grandeur and historical significance, ensuring that future generations can connect with the nation’s cultural roots. Today, Al-Subaie Palace stands as a cultural treasure, welcoming visitors to explore its timeless beauty, immerse themselves in the stories of the past, and appreciate the unique blend of history and art that it represents."
-
-        ),
-         "Arabic_title": (
-            "قصر السبيعي"
-        ),
-        "Arabic_description": (   
-      "يُعد قصر السبيعي معلمًا تاريخيًا شامخًا في قلب مدينة الرياض، ويجسد التراث الغني والبراعة المعمارية لمنطقة نجد. بُني القصر قبل أكثر من 80 عامًا، وكان بمثابة محطة استراحة مهمة للملك عبد العزيز آل سعود خلال رحلاته. لعب القصر دورًا حيويًا في استضافة التجمعات الملكية والشؤون الحكومية، مما جعله جزءًا أساسيًا من تاريخ المملكة. يتميز القصر بأسلوب معماري يجمع بين الحرفية السعودية التقليدية والعناصر التصميمية الأندلسية، مما يظهر في النقوش الدقيقة والساحات الفسيحة والانعكاس للحياة الفاخرة في ذلك العصر. خضع القصر لعدة مشاريع ترميم للحفاظ على رونقه وأهميته التاريخية، لضمان بقاء هذا الإرث للأجيال القادمة. اليوم، يقف قصر السبيعي ككنز ثقافي، مرحبًا بالزوار لاستكشاف جماله الخالد والانغماس في قصص الماضي وتقدير المزج الفريد بين التاريخ والفن الذي يمثله."
-        ),
-        "resources": [
+    "English_title": (
+        "Al-Subaie Palace"
+    ),
+    "English_description": (
+        "Al-Subaie Palace is a majestic historical landmark in the heart of Riyadh, embodying the rich heritage and architectural brilliance of the Najd region. Constructed over 80 years ago, the palace served as a significant resting place for King Abdulaziz Al Saud during his travels. It played a pivotal role in hosting royal gatherings and state affairs, making it a vital part of Saudi history. The architectural style of the palace is a harmonious blend of traditional Saudi craftsmanship and Andalusian design elements, showcasing intricate patterns, spacious courtyards, and a reflection of the opulent lifestyle of that era. The palace has undergone several restoration projects to maintain its grandeur and historical significance, ensuring that future generations can connect with the nation’s cultural roots. Today, Al-Subaie Palace stands as a cultural treasure, welcoming visitors to explore its timeless beauty, immerse themselves in the stories of the past, and appreciate the unique blend of history and art that it represents."
+    ),
+    "Arabic_title": (
+        "قصر السبيعي"
+    ),
+    "Arabic_description": (
+        "يُعد قصر السبيعي معلمًا تاريخيًا شامخًا في قلب مدينة الرياض، ويجسد التراث الغني والبراعة المعمارية لمنطقة نجد. بُني القصر قبل أكثر من 80 عامًا، وكان بمثابة محطة استراحة مهمة للملك عبد العزيز آل سعود خلال رحلاته. لعب القصر دورًا حيويًا في استضافة التجمعات الملكية والشؤون الحكومية، مما جعله جزءًا أساسيًا من تاريخ المملكة. يتميز القصر بأسلوب معماري يجمع بين الحرفية السعودية التقليدية والعناصر التصميمية الأندلسية، مما يظهر في النقوش الدقيقة والساحات الفسيحة والانعكاس للحياة الفاخرة في ذلك العصر. خضع القصر لعدة مشاريع ترميم للحفاظ على رونقه وأهميته التاريخية، لضمان بقاء هذا الإرث للأجيال القادمة. اليوم، يقف قصر السبيعي ككنز ثقافي، مرحبًا بالزوار لاستكشاف جماله الخالد والانغماس في قصص الماضي وتقدير المزج الفريد بين التاريخ والفن الذي يمثله."
+    ),
+    "resources": [
         {"text": "Learn More About Al-Subaie Palace", "url": "https://www.visitsaudi.com/en/riyadh/attractions/al-subaie-palace"}
-            ]
-    },
+    ]
+},
+
      "safiyyah museum": {
         "English_title": (
             "As-Safiyyah Museum and Park"
