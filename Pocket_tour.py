@@ -45,7 +45,7 @@ landmark_info = {
         {"text": "Learn More About Al-Subaie Palace", "url": "https://www.visitsaudi.com/en/riyadh/attractions/al-subaie-palace"}
             ]
     },
-     "As-Safiyyah Museum and Park": {
+     "safiyyah museum": {
         "English_title": (
             "As-Safiyyah Museum and Park"
         ),
