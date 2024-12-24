@@ -9,7 +9,7 @@ model = YOLO('best (3) (1).pt')  # Replace with your model path
 # Landmark information with updated details
 landmark_info = {
 
-    "Tabuk Fortess": {
+    "Tabuk Fortress": {
         "English_title": (
             "Tabuk Archaeological Castle"
         ),
