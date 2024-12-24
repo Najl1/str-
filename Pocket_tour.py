@@ -497,6 +497,11 @@ if image_data:
                 f"<p style='text-align: right; direction: rtl;'>{info.get('Arabic_description', 'No description available.')}</p>",
                 unsafe_allow_html=True
             )
+            st.write("**Resources:**")
+            for resource in info.get("resources", []):
+                resource_text = resource.get("text", "No text")
+                resource_url = resource.get("url", "#")
+                st.markdown(f"- [{resource_text}]({resource_url})")
         else:
             st.write("No information available for this landmark.")
     else:
