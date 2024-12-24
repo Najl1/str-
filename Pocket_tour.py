@@ -440,9 +440,9 @@ if use_camera:
             st.error("Failed to access the webcam. Ensure Iriun Webcam is running.")
             break
 
-        # Convert frame to RGB for display
-        frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        FRAME_WINDOW.image(frame_rgb, caption="Live Feed", use_container_width=True)
+        # # Convert frame to RGB for display
+        # frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        # FRAME_WINDOW.image(frame_rgb, caption="Live Feed", use_container_width=True)
         
     # Release the webcam
     cap.release()
