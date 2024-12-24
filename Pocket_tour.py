@@ -466,8 +466,8 @@ if image_data:
     file_bytes = np.asarray(bytearray(image_data.read()), dtype=np.uint8)
     img = cv2.imdecode(file_bytes, cv2.IMREAD_COLOR)
 
-    # Display the captured image
-    st.image(img, caption="Captured Image", use_container_width=True)
+    # # Display the captured image
+    # st.image(img, caption="Captured Image", use_container_width=True)
 
 
     # Run detection on the captured image
